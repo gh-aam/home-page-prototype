@@ -1,10 +1,13 @@
+/* Global Reset and Box Sizing */
 * { box-sizing: border-box; }
 
+/* Reset margins and paddings for common elements */
 body, section, header, div, p, h2, h3, ul, li {
   margin: 0;
   padding: 0;
 }
 
+/* Base styles */
 body {
   font-family: 'Open Sans', sans-serif;
   box-sizing: border-box;
@@ -12,6 +15,7 @@ body {
   font-weight: 300;
 }
 
+/* Header styles with background image */
 header {
   background-image: url('images/florence.jpg');
   background-size: cover;
@@ -19,6 +23,7 @@ header {
   min-height: 500px;
 }
 
+/* Navigation bar styles */
 #topbar {
   background-image: url('images/logo.png');
   background-size: 60px;
@@ -27,13 +32,16 @@ header {
   height: 60px;
 }
 
+/* Navigation list styles */
 li {
   list-style-type: none;
   display: inline-block;
 }
 
+/* Link styles */
 a { text-decoration: none; }
 
+/* Navigation link specific styles */
 li a {
   font-size: 24px;
   color: #51279B;
@@ -41,8 +49,10 @@ li a {
   font-weight: 600;
 }
 
+/* Navigation hover effects */
 li a:hover{ color: #8662C7; }
 
+/* Call-to-action button styles */
 div a {
   background-color: #51279B;
   color: #f9f9f9;
@@ -50,33 +60,41 @@ div a {
   font-weight: 400;
 }
 
+/* Button hover effect */
 div a:hover { background-color: #8662C7; }
 
+/* Header content positioning */
 header div {
   margin: 120px 0 0 100px;
   color: #f9f9f9;
   font-size: 24px;
 }
 
+/* Destination card styles */
 .card {
   display: inline-block;
   width: 458px;
   background-color: white;
 }
 
+/* Main heading styles */
 h2 {
   font-size: 48px;
   margin-bottom: 15px;
   font-weight: 800;
 }
 
+/* Image styles */
 img { width: 100%; }
 
+/* Main content area styles */
 main {
   padding: 29px;
   background-color: #F0F4F8;
 }
 
+/* Social interaction icons */
+/* Heart icon and counter */
 .heart {
   background-image: url('images/heart.png');
   background-size: 10px;
@@ -85,6 +103,7 @@ main {
   padding-left: 12px;
 }
 
+/* Comment icon and counter */
 .comment {
   background-image: url('images/comment.png');
   background-size: 10px;
@@ -93,24 +112,28 @@ main {
   padding-left: 12px;
 }
 
+/* Card title styles */
 h3 {
   font-size: 14px;
   margin: 7px 0 1px 5px;
   font-weight: 600;
 }
 
+/* Card description styles */
 .description {
   font-size: 12px;
   margin: 0 0 3px 5px;
   font-weight: 400;
 }
 
+/* Social metrics styles */
 .social {
   font-size: 10px;
   margin-bottom: 5px;
   font-weight: 400;
 }
 
+/* Header paragraph styles */
 header div p {
   margin-bottom: 16px;
   font-weight: 400;

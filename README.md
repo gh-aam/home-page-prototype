@@ -5,6 +5,7 @@ This project is a simple prototype of a home page designed to practice and learn
 - Clean and minimalist design
 - Basic web structure using HTML5
 - Custom styling with CSS3
+- Proper comments
 
 **Note** that this webpage is not responsive as it was not a requirement from [FWD, 3rd Edition](https://www.pearson.com/en-us/subject-catalog/p/fundamentals-of-web-development/P200000003214/9780136792857) during learning. So, open it on a larger screen.
 
